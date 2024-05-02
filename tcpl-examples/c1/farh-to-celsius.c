@@ -15,6 +15,8 @@ int main() {
   step = 20;   /* step size */
 
   fahr = lower;
+
+  printf(" ºF     ºC\n ---------\n");
   while (fahr <= upper) {
     // celsius = 5 * (fahr - 32) / 9;
     // printf("%3d%6d\n", fahr, celsius);
